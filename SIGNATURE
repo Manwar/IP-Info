@@ -1,0 +1,43 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.73.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 2b4d19a349812eea57c4babf4252b2a30f0a287d Build.PL
+SHA1 2e244d4801f5b59d022bd6b9d26fc7f0d7626eec Changes
+SHA1 9637c7879b38029ae4a0bbfeadeca9f1bfdc37c7 MANIFEST
+SHA1 5f29cdcbfacb9c46ac155fff9844aceeb064aef1 MANIFEST.SKIP
+SHA1 3eb61a4c3dec37ccd2bbc0f85955980299400dbd Makefile.PL
+SHA1 6d3434038ba8f244dec51ca318d436277df01f91 README
+SHA1 e2ce52fa7ca13fdecd026d97d1528fd9af022c35 lib/IP/Info.pm
+SHA1 085057a7e124ae143ed3ac0956dac4428cfdbb47 lib/IP/Info/Exception.pm
+SHA1 c6643b7c2948cf58deddcec8a4a812ce362d6a31 lib/IP/Info/Response.pm
+SHA1 59043617bd5f137db72f6ee0cbbbd2daef77604f t/00-load.t
+SHA1 b0d1206f046b5ff326224cbfb087a7c90ad8aa26 t/01-new.t
+SHA1 a1b23d60f4fe413d554b4cc526664f9f70fdef1c t/02-ipaddress.t
+SHA1 7330b56813c935d9859525e7156d9632975317de t/03-schema.t
+SHA1 b2b731aa2afbddbb305a03fb0c5fe3db4f316e7c t/04-exception-handler.t
+SHA1 2b8ffb7e4f399af95d092743846ac8d438f2c53e t/manifest.t
+SHA1 0765c9ff0cc4319f415bb08d0053b7717a8284a2 t/pod.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBAgAGBQJUJfviAAoJENoXJXWo7C/pgh4H+gMuaFSpeTrkGSw6bjqjpANQ
+qNGdkJFr1sLxbAfthNHqm6EHwE7Sw5nIrSm3Ugs3WqQs/2gsAgEhw15sP/KIZqUQ
+hczHW3hT7inaEB3PmVi6u+jvkpYBQLdocNMDuzNTSgq5T94v0pmPRen3WwjsBrHh
+mFmOXqa83NcOxZf/ExkozoHICgtdSbgW0eXe67VjPKwocfRIfR5nog6x40Gmz/Yg
+K58FpsWrvrG5sU+0r2QrX+fRkMwejFT0UfcUTY4ScDWGqG36VVikCgKlmJEpCveL
+EGS6i6Sa7NhDG6jyrt+8UJbA1SZ31OApvyqmY0kVU2Bv0260IQFaV5NRrQI3LKM=
+=2n9+
+-----END PGP SIGNATURE-----

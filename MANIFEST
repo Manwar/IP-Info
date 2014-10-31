@@ -16,3 +16,4 @@ t/02-ip_address.t
 t/03-schema.t
 t/manifest.t
 t/pod.t
+t/changes.t

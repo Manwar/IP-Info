@@ -1,6 +1,6 @@
 package IP::Info;
 
-$IP::Infor::VERSION = '0.11';
+$IP::Infor::VERSION = '0.12';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ IP::Info - Interface to IP geographic and network data.
 
 =head1 VERSION
 
-Version 0.11
+Version 0.12
 
 =cut
 
@@ -198,7 +198,7 @@ L<http://search.cpan.org/dist/IP-Info/>
 
 =head1 LICENSE AND COPYRIGHT
 
-Copyright (C) 2011 - 2014 Mohammad S Anwar.
+Copyright (C) 2011 - 2015 Mohammad S Anwar.
 
 This  program  is  free software; you can redistribute it and/or modify it under
 the  terms  of the the Artistic License (2.0). You may obtain a copy of the full

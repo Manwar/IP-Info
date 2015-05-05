@@ -1,5 +1,8 @@
 Revision history for IP-Info
 
+0.13  2015-05-05T11:15:00+01:00
+      - Added LICENSE file.
+
 0.12  2015-01-17T01:15:10+01:00
       - Removed SIGNATURE file.
       - Updated MANIFEST.SKIP file to ignore folder 'eumm/'.

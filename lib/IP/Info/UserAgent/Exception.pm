@@ -1,6 +1,6 @@
 package IP::Info::UserAgent::Exception;
 
-$IP::Info::UserAgent::Exception::VERSION = '0.12';
+$IP::Info::UserAgent::Exception::VERSION = '0.13';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ IP::Info::UserAgent::Exception - Exception handler for the module L<IP::Info::Us
 
 =head1 VERSION
 
-Version 0.12
+Version 0.13
 
 =cut
 

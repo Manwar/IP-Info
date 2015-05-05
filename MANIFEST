@@ -3,6 +3,7 @@ MANIFEST
 MANIFEST.SKIP
 Makefile.PL
 README
+LICENSE
 lib/IP/Info.pm
 lib/IP/Info/Response.pm
 lib/IP/Info/Response/Network.pm

@@ -1,6 +1,7 @@
 package IP::Info::Response::Network;
 
-$IP::Info::Response::Network::VERSION = '0.13';
+$IP::Info::Response::Network::VERSION   = '0.14';
+$IP::Info::Response::Network::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
 
@@ -8,7 +9,7 @@ IP::Info::Response::Network - Placeholder for Network for the module L<IP::Info:
 
 =head1 VERSION
 
-Version 0.13
+Version 0.14
 
 =cut
 
@@ -73,7 +74,7 @@ Mohammad S Anwar, C<< <mohammad.anwar at yahoo.com> >>
 
 =head1 REPOSITORY
 
-L<https://github.com/Manwar/IP-Info>
+L<https://github.com/manwar/IP-Info>
 
 =head1 BUGS
 
@@ -112,7 +113,7 @@ L<http://search.cpan.org/dist/IP-Info/>
 
 =head1 LICENSE AND COPYRIGHT
 
-Copyright (C) 2011 - 2015 Mohammad S Anwar.
+Copyright (C) 2011 - 2016 Mohammad S Anwar.
 
 This  program  is  free software; you can redistribute it and/or modify it under
 the  terms  of the the Artistic License (2.0). You may obtain a copy of the full

@@ -33,8 +33,8 @@ WriteMakefile(
         resources => {
             repository => {
                 type => 'git',
-                url  => 'https://github.com/Manwar/IP-Info.git',
-                web  => 'https://github.com/Manwar/IP-Info',
+                url  => 'https://github.com/manwar/IP-Info.git',
+                web  => 'https://github.com/manwar/IP-Info',
             },
         }})
      : ()

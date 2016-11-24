@@ -1,6 +1,6 @@
 package IP::Info::Response;
 
-$IP::Info::Response::VERSION   = '0.14';
+$IP::Info::Response::VERSION   = '0.15';
 $IP::Info::Response::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
@@ -9,7 +9,7 @@ IP::Info::Response - Response handler for the module IP::Info.
 
 =head1 VERSION
 
-Version 0.14
+Version 0.15
 
 =cut
 

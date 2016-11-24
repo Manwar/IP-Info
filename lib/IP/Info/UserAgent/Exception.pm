@@ -1,6 +1,6 @@
 package IP::Info::UserAgent::Exception;
 
-$IP::Info::UserAgent::Exception::VERSION   = '0.14';
+$IP::Info::UserAgent::Exception::VERSION   = '0.15';
 $IP::Info::UserAgent::Exception::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
@@ -9,7 +9,7 @@ IP::Info::UserAgent::Exception - Exception handler for the module L<IP::Info::Us
 
 =head1 VERSION
 
-Version 0.14
+Version 0.15
 
 =cut
 

@@ -1,6 +1,6 @@
 package IP::Info::UserAgent;
 
-$IP::Info::UserAgent::VERSION   = '0.14';
+$IP::Info::UserAgent::VERSION   = '0.15';
 $IP::Info::UserAgent::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
@@ -9,7 +9,7 @@ IP::Info::UserAgent - User agent for IP::Info.
 
 =head1 VERSION
 
-Version 0.14
+Version 0.15
 
 =cut
 

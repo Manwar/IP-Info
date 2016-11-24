@@ -1,5 +1,8 @@
 Revision history for IP::Info
 
+0.15  2016-11-24T12:20:00+01:00
+      - Added key 'provides' to the Makefile.PL script.
+
 0.14  2016-11-21T12:20:00+01:00
       - Updated Copyright year information.
 

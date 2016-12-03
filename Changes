@@ -1,5 +1,8 @@
 Revision history for IP::Info
 
+0.16  2016-12-03T05:30:00+01:00
+      - Added test scripts (t/meta-json.t and t/meta-yml.t).
+
 0.15  2016-11-24T12:20:00+01:00
       - Added key 'provides' to the Makefile.PL script.
 

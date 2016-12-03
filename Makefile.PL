@@ -9,7 +9,6 @@ WriteMakefile(
     VERSION_FROM       => 'lib/IP/Info.pm',
     ABSTRACT_FROM      => 'lib/IP/Info.pm',
     LICENSE            => 'artistic_2',
-    PL_FILES           => {},
     MIN_PERL_VERSION   => 5.006,
     CONFIGURE_REQUIRES => {
         'ExtUtils::MakeMaker' => 0,
@@ -31,12 +30,12 @@ WriteMakefile(
     (eval { ExtUtils::MakeMaker->VERSION(6.46) } ? (META_MERGE => {
         'meta-spec' => { version => 2 },
         provides    => {
-            'IP::Info'                       => { file => 'lib/IP/Info.pm'                    , version => '0.15' },
-            'IP::Info::Response'             => { file => 'lib/IP/Info/Response.pm'           , version => '0.15' },
-            'IP::Info::Response::Network'    => { file => 'lib/IP/Info/Response/Network.pm'   , version => '0.15' },
-            'IP::Info::Response::Location'   => { file => 'lib/IP/Info/Response/Location.pm'  , version => '0.15' },
-            'IP::Info::UserAgent'            => { file => 'lib/IP/Info/UserAgent.pm'          , version => '0.15' },
-            'IP::Info::UserAgent::Exception' => { file => 'lib/IP/Info/UserAgent/Exception.pm', version => '0.15' },
+            'IP::Info'                       => { file => 'lib/IP/Info.pm'                    , version => '0.16' },
+            'IP::Info::Response'             => { file => 'lib/IP/Info/Response.pm'           , version => '0.16' },
+            'IP::Info::Response::Network'    => { file => 'lib/IP/Info/Response/Network.pm'   , version => '0.16' },
+            'IP::Info::Response::Location'   => { file => 'lib/IP/Info/Response/Location.pm'  , version => '0.16' },
+            'IP::Info::UserAgent'            => { file => 'lib/IP/Info/UserAgent.pm'          , version => '0.16' },
+            'IP::Info::UserAgent::Exception' => { file => 'lib/IP/Info/UserAgent/Exception.pm', version => '0.16' },
         },
         resources => {
             repository => {

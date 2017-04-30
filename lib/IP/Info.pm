@@ -1,6 +1,6 @@
 package IP::Info;
 
-$IP::Info::VERSION = '0.16';
+$IP::Info::VERSION = '0.17';
 $IP::Info::AUTHOR  = 'cpan:MANWAR';
 
 =head1 NAME
@@ -9,7 +9,7 @@ IP::Info - Interface to IP geographic and network data.
 
 =head1 VERSION
 
-Version 0.16
+Version 0.17
 
 =cut
 
@@ -29,12 +29,13 @@ use Moo;
 use namespace::clean;
 extends 'IP::Info::UserAgent';
 
-has 'base_url' => (is => 'ro', default => sub { return 'http://api.quova.com/v1/ipinfo'; });
+has 'base_url' => (is => 'ro', default => sub { 'https://api.sec.neustar.biz/ipi/gpp/v1/ipinfo' });
 
 =head1 DESCRIPTION
 
-Quova RESTful API provides the geographic location & network data for any Internet
-Protocol address in the public address space. The information includes:
+Neustar IP Intelligence RESTful API provides the  geographic location and network
+data for any Internet Protocol address in the public address space.
+The information includes:
 
 =over 5
 
@@ -51,7 +52,7 @@ Protocol address in the public address space. The information includes:
 
 =back
 
-To obtain your Quova API key and the shared secret, register your application L<here|http://developer.quova.com>.
+To obtain "Free Developer Trial" API key and the shared secret, register your application L<here|https://www.neustar.biz/lp/ip-intelligence/trial.php>.
 
 =head1 CONSTRUCTOR
 

@@ -1,6 +1,6 @@
 package IP::Info::Response::Location;
 
-$IP::Info::Response::Location::VERSION   = '0.16';
+$IP::Info::Response::Location::VERSION   = '0.17';
 $IP::Info::Response::Location::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
@@ -9,7 +9,7 @@ IP::Info::Response::Location - Placeholder for Location for the module L<IP::Inf
 
 =head1 VERSION
 
-Version 0.16
+Version 0.17
 
 =cut
 

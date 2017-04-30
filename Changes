@@ -1,5 +1,9 @@
 Revision history for IP::Info
 
+0.17  2017-04-30T04:45:00+01:00
+      - Addressed issue RT #121444 with regard to broken link.
+      - Updated base url as service provider has changed.
+
 0.16  2016-12-03T05:30:00+01:00
       - Added test scripts (t/meta-json.t and t/meta-yml.t).
 
